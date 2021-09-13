@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector References</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <head>
+        <h1>CSS Selectors Reference</h1><br>
+        <h2>CSS Selectors</h2>
+    </head>
+    <table>
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class='tdBackground'>*</td>
+                <td>Universal Selector</td>
+                <td>Selects all elements of the HTML document.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>elementname</td>
+                <td>Type Selector</td>
+                <td>Selects all elements that have the given node name.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>.classname</td>
+                <td>Class Selector</td>
+                <td>Selects all elements that have the given class attribute.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>#idname</td>
+                <td>ID Selector</td>
+                <td>Selects an element based on the value of its id attribute.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>[attribute]</td>
+                <td>Attribute Selector</td>
+                <td>Selects all elements that have the given attribute.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>, / A, B</td>
+                <td>Grouping Selector</td>
+                <td>Selects all the matching nodes.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>CSS Combinators</h2>
+    <table>
+        <thead>
+            <th>Combinator</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class='tdBackground'>A B</td>
+                <td>Descendant Combinator</td>
+                <td>The (space) combinator selects nodes that are descendants of the first element.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>></td>
+                <td>Child Combinator</td>
+                <td>The > combinator selects nodes that are direct children of the first element.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>-</td>
+                <td>General Sibling Combinator</td>
+                <td>The - combinator selects siblings. The second element follows the first.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>+</td>
+                <td>Adjacent Sibling Combinator</td>
+                <td>The + combinator matches the second element only if it <em>immediately</em> follows the first element.</td>
+            </tr>
+            <tr>
+                <td class='tdBackground'>||</td>
+                <td>Column Combinator</td>
+                <td>The || combinator selects nodes which belong to a columm.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
